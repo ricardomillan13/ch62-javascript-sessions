@@ -193,8 +193,8 @@ console.log( String( 12.34 ) ); // "12,2"
 console.log( "Mi número es " + 12.34 ); // "Mi número es 12.34"
 console.log( "Mi número es " + String(12.34) ); // "Mi número es 12.34"
 
-
-
+// Para los objetos, se recomienda usar el metod JSON.stringify( objet )
+// Convierte un objeto en formato JSON
 console.log( JSON.stringify( {name:"John", age:30} ) ); // '{"name":"John","age":30}'
 
 const calificaciones =[8,6,5,9]
